@@ -20,7 +20,6 @@ abstract class myTopabstract
 abstract class mysubclass extends myTopabstract  {
 	
 	
-	
 	public void display()
 	{
 		System.out.println("I am from subclass");

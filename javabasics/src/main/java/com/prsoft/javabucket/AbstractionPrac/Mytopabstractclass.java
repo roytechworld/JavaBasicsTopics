@@ -45,6 +45,8 @@ public class Mytopabstractclass extends mysubclass
 		
 		mysubclass obj=new Mytopabstractclass();
 		
+		
+		
 		obj.display();
 		
 		

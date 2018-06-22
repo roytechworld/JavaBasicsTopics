@@ -9,7 +9,6 @@ public class ComprableProg implements Comparable<ComprableProg>{
 	private String employeename;
 	private int salary;
 	
-	
 
 
 	public int compareTo(ComprableProg o) {

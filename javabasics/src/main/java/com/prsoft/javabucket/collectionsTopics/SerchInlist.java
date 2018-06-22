@@ -15,6 +15,19 @@ public class SerchInlist {
 		list.add("Samsung");
 		list.add("Htc");
 		
+		List<String> list2=new LinkedList<String>();
+	    list2.add("Sony");
+		list2.add("Apple");
+		list2.add("Samsung");
+		list2.add("Htcf");		
+		
+		List<String> list3=new LinkedList<String>(list);
+		list3.removeAll(list2);
+		
+		for(String a:list3)
+		{
+			System.out.println(a);
+		}
 		
 		
 		

@@ -15,6 +15,7 @@ public class HashMaPprog {
 		mapobj.put(1,"Roy");
 		mapobj.put(2, "Any");
 		mapobj.put(3, "Rahul");
+		mapobj.put(4, "arvind");
 		
 		
 		

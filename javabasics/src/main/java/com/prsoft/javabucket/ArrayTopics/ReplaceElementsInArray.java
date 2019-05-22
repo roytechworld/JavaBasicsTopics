@@ -15,15 +15,11 @@ public class ReplaceElementsInArray {
 		
 		System.out.println("Objectlist are "+objectlist);
 		
-		
 		int index=objectlist.indexOf("Sohan");
 		objectlist.set(index,"Manmohan singh");
 		
 		System.out.println("Objectlist are after replacing "+objectlist);
 		
-		
-		
-
 	}
 
 }

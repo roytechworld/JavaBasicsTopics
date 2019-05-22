@@ -9,42 +9,33 @@ abstract class myTopabstract
 		System.out.println("I am from abstract class");
 	}
 	
-	
 //	public abstract void dosometing();// This classes must be implemented why those class who extends abstract class
 //	public abstract void dosometingmore();//
 	
 }
 
-
-
 abstract class mysubclass extends myTopabstract  {
 	
-	
+	@Override
 	public void display()
 	{
 		System.out.println("I am from subclass");
 	}
 	
-	
-	
-
 }
 
 public class Mytopabstractclass extends mysubclass
 {
-	
+	@Override
 	public void display()
 	{
 		System.out.println("I am from child of subclass");
 	}
 	
-	
 	public static void main(String[] args)
 	{
 		
 		mysubclass obj=new Mytopabstractclass();
-		
-		
 		
 		obj.display();
 		

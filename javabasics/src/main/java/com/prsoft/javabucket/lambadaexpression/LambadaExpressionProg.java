@@ -5,7 +5,7 @@ public class LambadaExpressionProg  {
 	public static void main(String[] args) 
 	{
 
-        drawable d2=(widtha)->{
+            drawable d2=(widtha)->{
         	
         	System.out.println("Drawing "+widtha);  
         	
